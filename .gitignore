@@ -1,0 +1,118 @@
+# ─────────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# ─────────────────────────────────────────────
+# Environment variables / secrets
+# ─────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─────────────────────────────────────────────
+# OS files
+# ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─────────────────────────────────────────────
+# Editor / IDE
+# ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude / local tool configs
+.claude/
+*.local.json
+
+# ─────────────────────────────────────────────
+# Build / outputs
+# ─────────────────────────────────────────────
+output/
+*.pdf
+*.log
+*.aux
+*.out
+*.tex.bak
+
+# LaTeX build artifacts
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# ─────────────────────────────────────────────
+# Runtime / temp files
+# ─────────────────────────────────────────────
+*.tmp
+*.temp
+*.cache
+
+# ─────────────────────────────────────────────
+# Test / coverage
+# ─────────────────────────────────────────────
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ─────────────────────────────────────────────
+# Logs
+# ─────────────────────────────────────────────
+*.log
+
+# ─────────────────────────────────────────────
+# Tracker / generated data
+# ─────────────────────────────────────────────
+applications.md
+skills_heatmap.json
+*.profile.json
+*.changes.json
+*.answers.txt
+
+# ─────────────────────────────────────────────
+# Node / Playwright (if used)
+# ─────────────────────────────────────────────
+node_modules/
+playwright-report/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# JD files (local experiments)
+jd*.txt
+
+# Questions files (local experiments)
+questions*.txt
+
+# Output artifacts
+output/
+*.pdf
+*.profile.json
+*.changes.json
+*.answers.txt
+
+# LaTeX generated / working files
+*.aux
+*.log
+*.out
+
+# Optional: ignore resume working copy
+resume/*.tex
+
+# Career profile (personal info)
+config/profile.yml
+
+# Project write-ups (personal context)
+projects/
